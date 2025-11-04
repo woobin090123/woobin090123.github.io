@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나만의 태양열 발전기 소개 웹페이지</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🌞 나만의 태양열 발전기 소개 웹페이지</h1>
+            <p class="subtitle">태양 에너지를 전기로 변환하는 친환경 에너지 솔루션</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">과제 소개</a></li>
+                <li><a href="#principle">작동원리</a></li>
+                <li><a href="#components">구성요소</a></li>
+                <li><a href="#advantages">장점 및 특징</a></li>
+                <li><a href="#evaluation">평가기준</a></li>
+                <li><a href="#python">파이썬 함수</a></li>
+                <li><a href="#thoughts">소감</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>📋 과제 소개</h2>
+            <div class="info-card">
+                <h3>과제명</h3>
+                <p>나만의 태양열 발전기 소개 웹페이지 제작</p>
+                
+                <h3>팀 구성</h3>
+                <p>2인 1조</p>
+                <div class="team-members">
+                    <span class="member">👤 유은성</span>
+                    <span class="member">👤 이우빈</span>
+                </div>
+
+                <h3>제출 방법</h3>
+                <p>완성된 웹페이지 주소(URL 링크) 1개</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="principle" class="section">
+        <div class="container">
+            <h2>⚙️ 태양열 키트의 작동원리</h2>
+            <div class="content-grid">
+                <div class="principle-card">
+                    <div class="icon">☀️</div>
+                    <h3>1. 빛 에너지 흡수</h3>
+                    <p>태양광 패널(솔라셀)이 태양광으로부터 빛 에너지를 받아 흡수합니다. 태양광 패널은 반도체 물질(주로 실리콘)로 만들어져 있어 빛을 받으면 전자들이 움직이기 시작합니다.</p>
+                </div>
+                
+                <div class="principle-card">
+                    <div class="icon">⚡</div>
+                    <h3>2. 전기 생성 (광전효과)</h3>
+                    <p>빛 에너지가 반도체 내부의 전자에 충분한 에너지를 제공하면, 전자가 이동하면서 전류가 발생합니다. 이를 광전효과(Photovoltaic Effect)라고 합니다.</p>
+                </div>
+            </div>
+            
+            <div class="diagram">
+                <div class="process-flow">
+                    <div class="flow-item">태양광 →</div>
+                    <div class="flow-item">태양광 패널 →</div>
+                    <div class="flow-item">충전 컨트롤러 →</div>
+                    <div class="flow-item">배터리 →</div>
+                    <div class="flow-item">전기 사용</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="components" class="section">
+        <div class="container">
+            <h2>🔧 태양열 키트의 구성요소</h2>
+            <div class="components-grid">
+                <div class="component-card">
+                    <h3>☀️ 태양광 패널 (Solar Panel)</h3>
+                    <p>태양광을 전기 에너지로 변환하는 핵심 부품입니다. 여러 개의 태양전지가 연결되어 구성되며, 빛을 받아 직류 전기를 생성합니다.</p>
+                    <ul>
+                        <li>고효율 반도체 소재 사용</li>
+                        <li>내구성이 뛰어난 구조</li>
+                        <li>다양한 크기와 용량 제공</li>
+                    </ul>
+                </div>
+                
+                <div class="component-card">
+                    <h3>🔌 충전 컨트롤러 (Charge Controller)</h3>
+                    <p>태양광 패널에서 생성된 전기를 안전하게 배터리에 충전하도록 제어하는 장치입니다. 과충전과 방전을 방지합니다.</p>
+                    <ul>
+                        <li>배터리 보호 기능</li>
+                        <li>최적 충전 관리</li>
+                        <li>LED 표시등 제공</li>
+                    </ul>
+                </div>
+                
+                <div class="component-card">
+                    <h3>🔋 배터리 (Battery)</h3>
+                    <p>태양광으로 생성된 전기를 저장하는 저장 장치입니다. 햇빛이 없는 밤이나 흐린 날에도 전기를 사용할 수 있게 해줍니다.</p>
+                    <ul>
+                        <li>재충전 가능한 리튬이온 배터리</li>
+                        <li>오래 지속되는 전력 공급</li>
+                        <li>휴대 가능한 크기</li>
+                    </ul>
+                </div>
+                
+                <div class="component-card">
+                    <h3>🔌 연결 케이블 및 커넥터</h3>
+                    <p>각 구성요소를 연결하는 전선과 커넥터입니다. 안전하고 효율적인 전력 전달을 보장합니다.</p>
+                    <ul>
+                        <li>내구성 있는 절연 처리</li>
+                        <li>쉬운 연결 구조</li>
+                        <li>방수 기능</li>
+                    </ul>
+                </div>
+                
+                <div class="component-card">
+                    <h3>📱 전력 출력 포트</h3>
+                    <p>저장된 전기를 다양한 기기에 공급하기 위한 출력 포트입니다. USB, DC 출력 등 다양한 방식으로 제공됩니다.</p>
+                    <ul>
+                        <li>USB-A, USB-C 포트</li>
+                        <li>DC 출력 포트</li>
+                        <li>다양한 기기 호환</li>
+                    </ul>
+                </div>
+                
+                <div class="component-card">
+                    <h3>📐 지지대 및 마운팅 시스템</h3>
+                    <p>태양광 패널을 적절한 각도로 고정하고 햇빛을 최대한 받을 수 있도록 지원하는 구조물입니다.</p>
+                    <ul>
+                        <li>각도 조절 가능</li>
+                        <li>안정적인 고정</li>
+                        <li>휴대 및 설치 용이</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="advantages" class="section">
+        <div class="container">
+            <h2>✨ 태양열 키트의 장점 및 특징</h2>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">🌍</div>
+                    <h3>친환경적</h3>
+                    <p>태양 에너지는 무공해이며 재생 가능한 에너지원입니다. 화석 연료를 사용하지 않아 이산화탄소 배출이 없어 지구 환경 보호에 기여합니다.</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">💰</div>
+                    <h3>경제적</h3>
+                    <p>초기 투자 비용 이후에는 거의 유지비용이 들지 않습니다. 장기적으로 전기 요금을 절감할 수 있어 경제적 이점이 큽니다.</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">🔧</div>
+                    <h3>설치 및 사용이 간편</h3>
+                    <p>복잡한 설치 공사 없이 간단하게 조립하여 사용할 수 있습니다. 휴대용 키트는 야외 활동이나 캠핑 등에서도 활용 가능합니다.</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">⚡</div>
+                    <h3>독립적 에너지 공급</h3>
+                    <p>전력망과 독립적으로 작동하여 정전 상황에서도 전기를 사용할 수 있습니다. 원거리 지역이나 전기 공급이 어려운 곳에서도 유용합니다.</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">📚</div>
+                    <h3>교육적 가치</h3>
+                    <p>재생 에너지의 원리와 중요성을 직접 체험하며 학습할 수 있어, 환경 교육과 과학 교육에 매우 효과적입니다.</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">🔋</div>
+                    <h3>지속 가능성</h3>
+                    <p>태양은 거의 무한한 에너지원으로, 앞으로도 지속적으로 사용 가능합니다. 미래 세대를 위한 지속 가능한 에너지 솔루션입니다.</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">🛠️</div>
+                    <h3>낮은 유지보수</h3>
+                    <p>움직이는 부품이 거의 없어 기계적 고장이 적고, 청소만 주기적으로 해주면 오랜 기간 사용할 수 있습니다.</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">🌐</div>
+                    <h3>확장 가능성</h3>
+                    <p>필요에 따라 패널이나 배터리를 추가하여 용량을 늘릴 수 있어, 사용 목적에 맞게 확장 가능합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="evaluation" class="section">
+        <div class="container">
+            <h2>📊 평가기준</h2>
+            <div class="table-container">
+                <table class="evaluation-table">
+                    <thead>
+                        <tr>
+                            <th>평가 항목</th>
+                            <th>평가 내용</th>
+                            <th>세부 평가 기준</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3" class="category">1. 내용의 충실성</td>
+                            <td>작동원리 설명</td>
+                            <td>태양열 키트의 작동원리가 명확하고 자세하게 설명되어 있는가?</td>
+                        </tr>
+                        <tr>
+                            <td>구성요소 설명</td>
+                            <td>각 구성요소가 무엇인지, 어떤 역할을 하는지 정확하게 기술되어 있는가?</td>
+                        </tr>
+                        <tr>
+                            <td>장점/특징 설명</td>
+                            <td>태양열 키트의 장점이나 특징이 구체적이고 이해하기 쉽게 설명되어 있는가?</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="category">2. 이해도</td>
+                            <td>기술적 정확성</td>
+                            <td>배운 내용을 정확하게 이해하고 웹페이지에 올바르게 표현했는가?</td>
+                        </tr>
+                        <tr>
+                            <td>내용 전달력</td>
+                            <td>복잡한 개념을 쉽고 명확하게 전달하고 있는가?</td>
+                        </tr>
+                        <tr>
+                            <td>완성도</td>
+                            <td>누락된 내용 없이 필수 항목이 모두 포함되어 있는가?</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="category">3. 창의성 및 완성도</td>
+                            <td>웹페이지 구성</td>
+                            <td>내용을 효과적으로 전달하기 위해 웹페이지가 잘 구성되어 있는가?</td>
+                        </tr>
+                        <tr>
+                            <td>시각적 효과</td>
+                            <td>사진, 도표, 아이콘 등을 활용하여 시각적으로 이해하기 쉽게 제작했는가?</td>
+                        </tr>
+                        <tr>
+                            <td>사용자 경험</td>
+                            <td>네비게이션이 쉽고, 정보를 찾기 편리한 구조로 되어 있는가?</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="python" class="section">
+        <div class="container">
+            <h2>🐍 파이썬 함수</h2>
+            
+            <div class="python-intro">
+                <div class="python-card">
+                    <div class="python-icon">📝</div>
+                    <h3>1. 함수란?</h3>
+                    <p>함수는 특정한 기능을 수행하도록 미리 정의한 코드 블록입니다.</p>
+                </div>
+            </div>
+
+            <div class="python-syntax">
+                <h3>2. 함수 정의 방법</h3>
+                <div class="code-block">
+                    <pre><code>def 함수이름(매개변수1, 매개변수2, ...):
+    실행할 코드
+    return 반환값</code></pre>
+                </div>
+                
+                <div class="syntax-explanation">
+                    <div class="explanation-item">
+                        <strong>def</strong>: 함수를 정의할 때 사용하는 키워드
+                    </div>
+                    <div class="explanation-item">
+                        <strong>함수이름</strong>: 함수를 부를 때 사용할 이름
+                    </div>
+                    <div class="explanation-item">
+                        <strong>(매개변수)</strong>: 함수에 전달할 값(입력값, parameter)
+                    </div>
+                    <div class="explanation-item">
+                        <strong>:</strong>: 함수 본문이 시작됨을 나타냄
+                    </div>
+                    <div class="explanation-item">
+                        <strong>return</strong>: 함수의 실행 결과(출력값)를 반환 (생략 가능)
+                    </div>
+                </div>
+            </div>
+
+            <div class="python-example">
+                <h3>3. 가장 간단한 함수 예제</h3>
+                <div class="example-container">
+                    <div class="example-code">
+                        <h4>코드</h4>
+                        <div class="code-block">
+                            <pre><code>def say_hello():
+    print("안녕하세요!")
+
+# 호출
+say_hello()</code></pre>
+                        </div>
+                    </div>
+                    <div class="example-output">
+                        <h4>출력</h4>
+                        <div class="output-block">
+                            <pre>안녕하세요!</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="thoughts" class="section">
+        <div class="container">
+            <h2>💭 프로젝트 소감</h2>
+            <div class="thoughts-container">
+                <div class="thought-card">
+                    <div class="thought-header">
+                        <div class="thought-avatar">👤</div>
+                        <h3>이우빈</h3>
+                    </div>
+                    <div class="thought-content">
+                        <p>태양광 수업을 받으면서 처음에는 이걸 하면 과연 좋을까 했는데 하다 보니까 점점 흥미를 가지게 되는 거 같았다. 일단 초등학교 때는 엔트리나 스크래치로 쉽게 배웠는데 고등학교에 와서는 이렇게 어려운 문제들을 풀다 보니까 점점 쉬워지는 거 같았다가 for 문, if 문, def 문이 나오니까 갑자기 난이도가 겁나 올라가는 느낌이었다.</p>
+                        <p>그리고 코딩 배웠던 걸 사용해서 많이 한 사람 키보드를 준다 해서 정말 열심히 했는데 은성이랑 동점이 났는데 갑자기 쿨하게 양보한다 했던 게 정말 감동이었다.</p>
+                    </div>
+                </div>
+                
+                <div class="thought-card">
+                    <div class="thought-header">
+                        <div class="thought-avatar">👤</div>
+                        <h3>유은성</h3>
+                    </div>
+                    <div class="thought-content">
+                        <p>야간에 신재생 수업을 하면서 기초전공을 배우고 신재생 에너지 중 태양광에 대해 배우며 의미 있는 시간을 보냈고 더불어 아두이노와 파이썬을 배우면 코딩에 대해서도 더더욱 깊이 알게 되었다. 그리고 태양광 추적기를 만들며 집중력과 공간지각능력을 기를 수 있었다. 이런 수업을 하면서 친구들과 친목도 다질 수 있어 좋았다.</p>
+                        <p>그리고 신재생 에너지 야간 수업이 재밌을 수 있었던 이유는 선생님께서 우리 눈높이에 맞춰 친절하게 하나하나 설명해 주셔서 즐겁게 수업할 수 있었다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 나만의 태양열 발전기 소개 웹페이지 | 팀: 유은성, 이우빈</p>
+            <p>친환경 에너지로 더 나은 미래를 만들어가요! 🌞</p>
+        </div>
+    </footer>
+</body>
+</html>
